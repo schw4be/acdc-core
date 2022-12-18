@@ -1,9 +1,12 @@
 {
   "name": "acdc-core",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "'A' Cloud Development Concept - Core",
   "main": "index.js",
-  "git": "https://github.com/schw4be/acdc-core.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schw4be/acdc-core.git"
+  },  
   "scripts": {
     "start": "node dist",
     "clean": "rimraf dist",
