@@ -1,6 +1,6 @@
 {
   "name": "acdc-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "'A' Cloud Development Concept - Core",
   "main": "index.js",
   "scripts": {
@@ -23,9 +23,7 @@
     "ACDC",
     "Cloud",
     "Development",
-    "Concept",
-    "ABS",
-    "Team"
+    "Concept"
   ],
   "bin": {
     "acdc": "./dist/index.js"
