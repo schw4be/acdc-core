@@ -1,6 +1,6 @@
 {
-  "name": "acdc-example-core",
-  "version": "1.0.0",
+  "name": "acdc-core",
+  "version": "0.0.1",
   "description": "ABS Team Cloud Development Concept - Core",
   "main": "index.js",
   "scripts": {
@@ -27,6 +27,9 @@
     "ABS",
     "Team"
   ],
+  "bin": {
+    "acdc": "./dist/index.js"
+  },   
   "author": "Markus Klein",
   "license": "ISC",
   "devDependencies": {
