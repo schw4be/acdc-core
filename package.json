@@ -1,7 +1,7 @@
 {
   "name": "acdc-example-core",
   "version": "1.0.0",
-  "description": "ABS Team Cloud Development Concept - Example Core App",
+  "description": "ABS Team Cloud Development Concept - Core",
   "main": "index.js",
   "scripts": {
     "start": "node dist",
