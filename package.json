@@ -1,7 +1,7 @@
 {
   "name": "acdc-core",
   "version": "0.0.1",
-  "description": "ABS Team Cloud Development Concept - Core",
+  "description": "'A' Cloud Development Concept - Core",
   "main": "index.js",
   "scripts": {
     "start": "node dist",
