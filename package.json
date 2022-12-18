@@ -1,6 +1,6 @@
 {
   "name": "acdc-core",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "'A' Cloud Development Concept - Core",
   "main": "index.js",
   "git": "https://github.com/schw4be/acdc-core.git",
