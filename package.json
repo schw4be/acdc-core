@@ -1,6 +1,6 @@
 {
   "name": "acdc-core",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "'A' Cloud Development Concept - Core",
   "main": "index.js",
   "repository": {
@@ -15,10 +15,10 @@
     "build:clean": "npm-run-all clean",
     "build:ts": "tsc",
     "lint": "npm-run-all lint:*",
-    "lint:eslint": "eslint src",
-    "lint:prettier": "prettier src --check",
+    "lint:eslint": "eslint ./acdc/src",
+    "lint:prettier": "prettier ./acdc/src --check",
     "format": "npm-run-all format:*",
-    "format:prettier": "prettier src --write",
+    "format:prettier": "prettier ,/acdc/src --write",
     "format:eslint": "eslint --fix src",
     "dev": "ts-node-dev --inspect --respawn --transpile-only src",
     "debug": "node --inspect dist",

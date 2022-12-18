@@ -1,0 +1,24 @@
+{
+  "name": "acdc-core",
+  "version": "0.0.11",
+  "description": "'A' Cloud Development Concept - Core",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/schw4be/acdc-core.git"
+  },  
+  "scripts": {
+    "prepublishOnly": "cd..; npm run build"
+  },
+  "keywords": [
+    "ACDC",
+    "Cloud",
+    "Development",
+    "Concept"
+  ],
+  "bin": {
+    "acdc": "./dist/index.js"
+  },   
+  "author": "Markus Klein",
+  "license": "ISC"
+}

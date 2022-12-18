@@ -2,8 +2,8 @@
     "compilerOptions": {
       "target": "ES2021",
       "module": "CommonJS",
-      "outDir": "./dist",
-      "rootDir": "./src",
+      "outDir": "./acdc/dist",
+      "rootDir": "acdc/src",
       "strict": true,
       "noImplicitAny": true,
       "strictNullChecks": true,
@@ -15,10 +15,10 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "resolveJsonModule": true,
-      "typeRoots": ["./node_modules/@types", "./src/@types"]
+      "typeRoots": ["./node_modules/@types", "acdc/src/@types"]
     },
     "ts-node": {
       "files": true
     },
-    "include": ["src"]
+    "include": ["acdc/src"]
   }
