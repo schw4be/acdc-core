@@ -1,6 +1,6 @@
 {
   "name": "acdc-core",
-  "version": "0.0.10",
+  "version": "0.0.1",
   "description": "'A' Cloud Development Concept - Core",
   "main": "index.js",
   "repository": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/schw4be/acdc-core.git"
   },  
   "scripts": {
-    "prepublishOnly": "npm run build",
+    "publish": "cd acdc && npm publish",
     "start": "node dist",
     "clean": "rimraf dist",
     "build": "npm-run-all build:*",

@@ -1,14 +1,15 @@
 {
   "name": "acdc-core",
-  "version": "0.0.11",
+  "version": "0.0.14",
   "description": "'A' Cloud Development Concept - Core",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/schw4be/acdc-core.git"
   },  
   "scripts": {
-    "prepublishOnly": "cd..; npm run build"
+    "prepublishOnly": "cd .. && npm run build"
   },
   "keywords": [
     "ACDC",
